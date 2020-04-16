@@ -58,10 +58,8 @@ class App extends Component {
                 </h4>
                 
                 <blockquote className="blockquote">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                  Fusce bibendum ligula ac dui cursus, sit amet lacinia mauris rutrum. 
-                  Curabitur id ultrices elit. 
-                  Duis bibendum erat at aliquam cursus."
+                  "I enjoyed the challenges and do not close myself to new things.
+                  Have a sense of responsibility, honest, and have good teamwork in any conditions."
                 </blockquote>
                 <p>
                   intanadela@outlook.com
