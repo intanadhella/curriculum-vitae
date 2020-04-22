@@ -26,6 +26,7 @@ class App extends Component {
                   justify
                   variant="pils"
                   defaultActiveKey="about-me"
+                  className="navbar-expand-md"
                 >
                   <Nav.Item>
                     <Nav.Link href="#about-me">About Me</Nav.Link>
