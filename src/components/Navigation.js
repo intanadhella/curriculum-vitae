@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import { Link } from 'react-scroll'
 import myprofile from './../assets/profile.jpg'
 
@@ -7,6 +7,7 @@ export default class Navigation extends Component {
     render() {
         return (
             <Navbar
+                collapseOnSelect
                 expand="lg"
                 variant="dark"
                 bg="primary"
@@ -28,86 +29,77 @@ export default class Navigation extends Component {
                 </Link>
                 <Navbar.Toggle aria-controls="navbarSupportedContent" />
                 <Navbar.Collapse id="navbarSupportedContent">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <Link
+                    <Nav>
+                        <Nav.Item>
+                            <Nav.Link
+                                eventKey="1"
                                 activeClass="active"
-                                className="nav-link"
                                 to="about"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
                                 href="#about"
+                                as={Link}
                             >
                                 About
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
+                            </Nav.Link>
+                            <Nav.Link
                                 activeClass="active"
-                                className="nav-link"
                                 to="work-experience"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
                                 href="#work-experience"
+                                as={Link}
                             >
                                 Work Experience
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
+                            </Nav.Link>
+                            <Nav.Link
                                 activeClass="active"
-                                className="nav-link"
                                 to="education"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
                                 href="#education"
+                                as={Link}
                             >
                                 Education
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
+                            </Nav.Link>
+                            <Nav.Link
                                 activeClass="active"
-                                className="nav-link"
                                 to="skills"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
                                 href="#skills"
+                                as={Link}
                             >
                                 Skills
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
+                            </Nav.Link>
+                            <Nav.Link
                                 activeClass="active"
-                                className="nav-link"
                                 to="languages"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
                                 href="#languages"
+                                as={Link}
                             >
                                 Languages
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
+                            </Nav.Link>
+                            <Nav.Link
                                 activeClass="active"
-                                className="nav-link"
                                 to="personal-projects"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
                                 href="#personal-projects"
+                                as={Link}
                             >
                                 Personal Projects
-                            </Link>
-                        </li>
-                    </ul>
+                            </Nav.Link>
+                        </Nav.Item>
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
         )
