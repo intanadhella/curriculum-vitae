@@ -22,7 +22,7 @@ export default class Resume extends Component {
             </h3>
             <div className="subheading mb-5">
               Kota Batam, Indonesia ·{" "}
-              <a href="mailto:name@email.com">mail@intanadela.my.id</a>
+              <a href="mailto:mail@intanadela.my.id">mail@intanadela.my.id</a>
             </div>
             <p className="lead mb-5">
               I’m a fresh graduate from Glints Academy. Graduate as a Full-Stack
