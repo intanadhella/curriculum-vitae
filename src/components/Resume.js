@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
+import myprofile from './../assets/profile.jpg';
 library.add(fab, fas);
 
 export default class Resume extends Component {
@@ -14,9 +15,18 @@ export default class Resume extends Component {
           id="about"
         >
           <div className="w-100">
-            <h1 className="mb-0">
-              Intan <span className="text-primary">Adela</span>
-            </h1>
+            <div className="row">
+              <div className="col">
+                <h1 className="mb-0">
+                  Intan <span className="text-primary">Adela</span>
+                </h1>
+              </div>
+              <div className="col">
+                <span className="d-block d-lg-none">
+                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={myprofile} alt="" />
+                </span>
+              </div>
+            </div>
             <h3>
               <span className="text-secondary">Full-Stack Developer</span>
             </h3>

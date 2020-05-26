@@ -32,68 +32,61 @@ export default class Navigation extends Component {
                     <Nav>
                         <Nav.Item>
                             <Nav.Link
-                                eventKey="1"
-                                activeClass="active"
+                                className="btn"
                                 to="about"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                href="#about"
                                 as={Link}
                             >
                                 About
                             </Nav.Link>
                             <Nav.Link
-                                activeClass="active"
+                                className="btn"
                                 to="work-experience"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                href="#work-experience"
                                 as={Link}
                             >
                                 Work Experience
                             </Nav.Link>
                             <Nav.Link
-                                activeClass="active"
+                                className="btn"
                                 to="education"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                href="#education"
                                 as={Link}
                             >
                                 Education
                             </Nav.Link>
                             <Nav.Link
-                                activeClass="active"
+                                className="btn"
                                 to="skills"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                href="#skills"
                                 as={Link}
                             >
                                 Skills
                             </Nav.Link>
                             <Nav.Link
-                                activeClass="active"
+                                className="btn"
                                 to="languages"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                href="#languages"
                                 as={Link}
                             >
                                 Languages
                             </Nav.Link>
                             <Nav.Link
-                                activeClass="active"
+                                className="btn"
                                 to="personal-projects"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                href="#personal-projects"
                                 as={Link}
                             >
                                 Personal Projects
