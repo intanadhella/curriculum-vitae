@@ -23,37 +23,38 @@ const Resume = () => {
           </h3>
           <div className="subheading mb-5">
             Kota Batam, Indonesia ·{" "}
-            <a href="mailto:mail@intanadela.my.id">mail@intanadela.my.id</a>
+            <a
+              href="mailto:mail@intanadela.my.id"
+              className="text-lowercase"
+            >
+              mail@intanadela.my.id
+            </a>
           </div>
           <p className="lead mb-5">
-            I’m a fresh graduate from Glints Academy. Graduate as a Full-Stack
-            Developer, I’m now has skills in HTML, CSS, ReactJS, etc. I
-            enjoyed the challenges and do not close my self to new things.
-            Have a sense of responsibility, honest, good teamwork and ability
-            to work under pressure.
-            </p>
+            I’m a fresh graduate from Glints Academy.
+            Graduate as a Full-Stack Developer, I’m now has skills in HTML, CSS, ReactJS, etc.
+            I enjoyed the challenges and do not close my self to new things.
+            Have a sense of responsibility, honest, good teamwork and ability to work under pressure.
+          </p>
           <div className="social-icons">
-            <a
-              href="https://intanadela.my.id"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={["fas", "globe-asia"]} />
-            </a>
-            <a
-              href="https://linkedin.com/in/intanadela"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
-            </a>
-            <a
-              href="https://github.com/intanadhella"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={["fab", "github"]} />
-            </a>
+            <OverlayTrigger placement="top" overlay={<Tooltip>LinkedIn</Tooltip>}>
+              <a
+                href="https://linkedin.com/in/intanadela"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
+              </a>
+            </OverlayTrigger>
+            <OverlayTrigger placement="top" overlay={<Tooltip>GitHub</Tooltip>}>
+              <a
+                href="https://github.com/intanadhella"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
+            </OverlayTrigger>
           </div>
         </div>
       </section>
@@ -74,22 +75,21 @@ const Resume = () => {
               <div>
                 <ul>
                   <li>
-                    Accepting payments, ensuring all prices, and quantities
-                    are accurate and proving a receipt to every customer.
-                    </li>
+                    Accepting payments, ensuring all prices, 
+                    and quantities are accurate and proving a receipt to every customer.
+                  </li>
                   <li>
-                    Welcoming customer, answering their questions, helping
-                    them to locate seat in the restaurant, and providing
-                    advice or recommendations of the menu.
-                    </li>
+                    Welcoming customer, answering their questions, helping them to locate seat in the restaurant, 
+                    and providing advice or recommendations of the menu.
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">
                 July 2019 - March 2020 <br />
-                  Kota Batam, Indonesia
-                </span>
+                Kota Batam, Indonesia
+              </span>
             </div>
           </div>
 
@@ -98,7 +98,7 @@ const Resume = () => {
               <h3 className="mb-0">Administration</h3>
               <div className="subheading mb-3">
                 Meranti Sub-District Office
-                </div>
+              </div>
               <div>
                 <ul>
                   <li>Collecting data for KTP (ID Cards) registration.</li>
@@ -108,8 +108,8 @@ const Resume = () => {
             <div className="resume-date text-md-right">
               <span className="text-primary">
                 October 2017 - November 2017 <br />
-                  Kabupaten Asahan, Indonesia
-                </span>
+                Kabupaten Asahan, Indonesia
+              </span>
             </div>
           </div>
         </div>
@@ -133,9 +133,9 @@ const Resume = () => {
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">
-                March 2020 - Present <br />
-                  Kota Batam, Indonesia
-                </span>
+                March 2020 - May 2020 <br />
+                Kota Batam, Indonesia
+              </span>
             </div>
           </div>
 
@@ -149,8 +149,8 @@ const Resume = () => {
             <div className="resume-date text-md-right">
               <span className="text-primary">
                 July 2016 - June 2019 <br />
-                  Kabupaten Asahan, Indonesia
-                </span>
+                Kabupaten Asahan, Indonesia
+              </span>
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ const Resume = () => {
 
           <div className="subheading mb-3">
             Programming Languages &amp; Tools
-            </div>
+          </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
               <OverlayTrigger placement="bottom" overlay={<Tooltip>HTML5</Tooltip>}>
@@ -250,20 +250,16 @@ const Resume = () => {
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-                Mobile-First, Responsive Design
-              </li>
+              Mobile-First, Responsive Design
+            </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-                Cross Browser Testing &amp; Debugging
-              </li>
+              Cross Browser Testing &amp; Debugging
+            </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-                Cross Functional Teams
-              </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-                Agile Development &amp; Scrum
-              </li>
+              Agile Development &amp; Scrum
+            </li>
           </ul>
         </div>
       </section>
@@ -280,7 +276,7 @@ const Resume = () => {
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Bahasa Indonesia</h3>
-              <div className="subheading mb-3">Native Proficiency</div>
+              <div className="subheading mb-3">Native</div>
             </div>
           </div>
 
@@ -288,8 +284,18 @@ const Resume = () => {
             <div className="resume-content">
               <h3 className="mb-0">English</h3>
               <div className="subheading mb-3">
-                Limited Working Proficiency
-                </div>
+                EF SET Level B2 {" "}
+                <OverlayTrigger placement="right" overlay={<Tooltip>See credential</Tooltip>}>
+                  <a
+                    href="https://www.efset.org/cert/KgGbjj"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lowercase"
+                  >
+                    (efset.org/cert/KgGbjj)
+                  </a>
+                </OverlayTrigger>
+              </div>
             </div>
           </div>
         </div>
@@ -306,21 +312,65 @@ const Resume = () => {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0">Circle Messenger</h3>
+              <p>
+                This project called Circle Messenger, basically it is a realtime chat application.
+                As the Front-end dev,
+                I am responsible for creating the login and register interfaces including UI/UX of the app
+                and the functionality for auth such as, 
+                handling error messages and success messages from server to the interface.
+              </p>
+              <div>
+                Preview: {' '}
+                <a
+                  href="https://circlemessenger.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  circlemessenger.com
+                </a>
+              </div>
+              <div>
+                GitHub: {' '}
+                <a
+                  href="https://github.com/intanadhella/project-chatbox-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/intanadhella/project-chatbox-frontend
+                </a>
+              </div>
+              <div>Tech: ReactJS, Express.js, Socket.IO and Bootstrap</div>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Curriculum Vitae</h3>
               <p>
-                This is a personal project of mine, consisting of my
-                curriculum vitae. It use responsive mobile interface so the
-                curriculum can be attracted to be reviewed. You can check it
-                  on{" "}
+                This is a personal project of mine, consisting of my curriculum vitae. 
+                It use responsive mobile interface so the curriculum can be attracted to be reviewed.
+              </p>
+              <div>
+                Preview: {' '}
                 <a
-                  href="//intanadela.netlify.app"
+                  href="https://intanadela.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   intanadela.netlify.app
-                  </a>{" "}
-                  and my github repository.
-                </p>
+                </a>
+              </div>
+              <div>
+                GitHub: {' '}
+                <a
+                  href="https://github.com/intanadhella/project-curriculum-vitae"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/intanadhella/project-curriculum-vitae
+                </a>
+              </div>
               <div>Tech: ReactJS and Bootstrap</div>
             </div>
           </div>
@@ -329,9 +379,29 @@ const Resume = () => {
             <div className="resume-content">
               <h3 className="mb-0">Todo App</h3>
               <p>
-                This project is just simple creating todo list, it receive
-                input from user and then store the data to the Local Storage.
-                </p>
+                This project is just simple creating todo list, 
+                it receive input from user and then store the data to the Local Storage.
+              </p>
+              <div>
+                Preview: {' '}
+                <a
+                  href="https://confident-almeida-580799.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  confident-almeida-580799.netlify.app
+                </a>
+              </div>
+              <div>
+                GitHub: {' '}
+                <a
+                  href="https://github.com/intanadhella/project-todoapp-reactjs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/intanadhella/project-todoapp-reactjs
+                </a>
+              </div>
               <div>Tech: ReactJS, Bootstrap and Local Storage</div>
             </div>
           </div>
@@ -340,12 +410,31 @@ const Resume = () => {
             <div className="resume-content">
               <h3 className="mb-0">Indonesian Heroes</h3>
               <p>
-                This project is originated from a task that given at the
-                Glints Academy, basically it just accepts input from the user
-                then send it to backend that build using Express.js and saved
-                it to MongoDB server. All the data that has been submitted,
-                returned to the application.
-                </p>
+                This project is originated from a task that given at the Glints Academy, 
+                basically it just accepts input from the user then send it to backend that build using Express.js
+                and saved it to MongoDB server. 
+                All the data that has been submitted, returned to the application.
+              </p>
+              <div>
+                Preview: {' '}
+                <a
+                  href="https://distracted-williams-2071c0.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  distracted-williams-2071c0.netlify.app
+                </a>
+              </div>
+              <div>
+                GitHub: {' '}
+                <a
+                  href="https://github.com/intanadhella/project-heroes-fullstack"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/intanadhella/project-heroes-fullstack
+                </a>
+              </div>
               <div>Tech: ReactJS, Bootstrap, Express.js and MongoDB</div>
             </div>
           </div>
@@ -354,17 +443,37 @@ const Resume = () => {
             <div className="resume-content">
               <h3 className="mb-0">Weather App</h3>
               <p>
-                This project was assigned to the group that I included in. In
-                  that group, my responsibility is showing the data from{" "}
+                This project was assigned to the group that I included in.
+                In that group, my responsibility is showing the data from{" "}
                 <a
                   href="//api.openweatherapp.org"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  api.openweatherapp.org
+                api.openweatherapp.org
                   </a>{" "}
-                  using fetch function.
-                </p>
+                using fetch function.
+              </p>
+              <div>
+                Preview: {' '}
+                <a
+                  href="https://intanadhella.github.io/project-weather-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  intanadhella.github.io/project-weather-app
+                </a>
+              </div>
+              <div>
+                GitHub: {' '}
+                <a
+                  href="https://github.com/intanadhella/project-weather-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github.com/intanadhella/project-weather-app
+                </a>
+              </div>
               <div>Tech: Bootstrap and JavaScript</div>
             </div>
           </div>
