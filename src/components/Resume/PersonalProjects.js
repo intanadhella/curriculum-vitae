@@ -21,7 +21,7 @@ const PersonalProjects = () => {
                             handling error messages and success messages from server to the interface.
                         </p>
                         <div>
-                            Preview: {' '}
+                            See project: {' '}
                             <a
                                 href="https://circlemessenger.com"
                                 target="_blank"
@@ -52,7 +52,7 @@ const PersonalProjects = () => {
                             It use responsive mobile interface so the curriculum can be attracted to be reviewed.
                         </p>
                         <div>
-                            Preview: {' '}
+                            See project: {' '}
                             <a
                                 href="https://intanadela.netlify.app"
                                 target="_blank"
@@ -83,7 +83,7 @@ const PersonalProjects = () => {
                             it receive input from user and then store the data to the Local Storage.
                         </p>
                         <div>
-                            Preview: {' '}
+                            See project: {' '}
                             <a
                                 href="https://confident-almeida-580799.netlify.app"
                                 target="_blank"
@@ -116,7 +116,7 @@ const PersonalProjects = () => {
                             All the data that has been submitted, returned to the application.
                         </p>
                         <div>
-                            Preview: {' '}
+                            See project: {' '}
                             <a
                                 href="https://distracted-williams-2071c0.netlify.app"
                                 target="_blank"
@@ -155,7 +155,7 @@ const PersonalProjects = () => {
                             using fetch function.
                         </p>
                         <div>
-                            Preview: {' '}
+                            See project: {' '}
                             <a
                                 href="https://intanadhella.github.io/project-weather-app"
                                 target="_blank"
