@@ -12,7 +12,7 @@ const WorkExperience = () => {
 
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
-                        <h3 className="mb-0">Restaurant Cashier</h3>
+                        <h3 className="mb-0">Restaurant Cashier (Internship)</h3>
                         <div className="subheading mb-2">Aston Inn Gideon</div>
                         <div>
                             <ul className="mb-0">
@@ -36,7 +36,7 @@ const WorkExperience = () => {
 
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                     <div className="resume-content">
-                        <h3 className="mb-0">Administration</h3>
+                        <h3 className="mb-0">Administration (School Internship)</h3>
                         <div className="subheading mb-2">Meranti Sub-District Office</div>
                         <div>
                             <ul>
