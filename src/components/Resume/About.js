@@ -36,6 +36,15 @@ const About = () => {
                     Have a sense of responsibility, honest, good teamwork and ability to work under pressure.
                 </p>
                 <div className="social-icons">
+                    <OverlayTrigger placement="top" overlay={<Tooltip>Glints Profile</Tooltip>}>
+                        <a
+                            href = "https://glints.com/id/profile/public/af08df39-a0d9-4b04-a917-d55c5c5c6382"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FontAwesomeIcon icon={["fas", "globe-asia"]} />
+                        </a>
+                    </OverlayTrigger>
                     <OverlayTrigger placement="top" overlay={<Tooltip>LinkedIn</Tooltip>}>
                         <a
                             href="https://linkedin.com/in/intanadela"
