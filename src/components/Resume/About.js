@@ -18,7 +18,7 @@ const About = () => {
                     Intan <span className="text-primary">Adela</span>
                 </h1>
                 <h3>
-                    <span className="text-secondary">Full-Stack Developer</span>
+                    <span className="text-secondary">Full-Stack JavaScript Developer</span>
                 </h3>
                 <div className="subheading mb-5">
                     Kota Batam, Indonesia ·{" "}
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
                 <p className="lead mb-5">
                     I’m a fresh graduate from Glints Academy.
-                    Graduate as a Full-Stack Developer, I’m now has skills in HTML, CSS, ReactJS, etc.
+                    Graduate as a Full-Stack JavaScript Developer, I’m now has skills in HTML, CSS, ReactJS, etc.
                     I enjoyed the challenges and do not close my self to new things.
                     Have a sense of responsibility, honest, good teamwork and ability to work under pressure.
                 </p>
