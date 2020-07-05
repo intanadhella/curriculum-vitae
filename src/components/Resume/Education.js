@@ -14,9 +14,8 @@ const Education = () => {
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Glints Academy</h3>
-              <div className="subheading mb-2">Impact Byte</div>
-              <div>
-                Full-Stack (ReactJS){" "}
+              <div className="subheading mb-2">
+                Impact Byte {" "}
                 <OverlayTrigger
                   placement="right"
                   overlay={<Tooltip>See credential</Tooltip>}
@@ -31,6 +30,7 @@ const Education = () => {
                   </a>
                 </OverlayTrigger>
               </div>
+              <div>Full-Stack (ReactJS)</div>
               {/* <p>GPA: 3.23</p> */}
             </div>
             <div className="resume-date text-md-right">
